@@ -181,3 +181,22 @@ h2 {
         max-width: 1300px;
     }
 }
+
+@media (max-width: 767px) {
+    nav.fixed-top {
+        padding: 5px;
+        background-color: #fff;
+    }
+
+    #contact a {
+        text-align: center;
+    }
+
+    nav.fixed-top .navbar .nav-link {
+        padding: 34px 5px;
+        font-size: 14px;
+    }
+    #contact h2, #contact h3, #work h2, #about .expertise h2, #about h2 {
+        font-size: 2rem;
+    }
+}
